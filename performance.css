@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+  border: 1px solid #EFEFEF;
+  margin: 10px;
+  min-width: 475px;
+  overflow-x: hidden;
+  padding: 10px;
+}
+
+.header.label {
+  font-size: 13px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.header.performance-label, .header.performance-time {
+  border: 0;
+  margin: 10px 0 10px;
+  text-decoration: underline;
+}
+
+.performance-label, .performance-time,
+.performance-graph,
+.performance-graph-pre, .performance-graph-key, .performance-graph-post,
+.performance-graph-total {
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+}
+
+.performance-row:hover {
+  background-color: #EFEFEF;
+}
+
+.performance-row.key-0 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+.performance-label {
+  border-right: 1px solid grey;
+  width: 100px;
+}
+
+.performance-time {
+  padding: 0 0 0 20px;
+  text-align: right;
+  width: 60px;
+}
+
+.performance-graph, .performance-graph-total {
+  height: 20px;
+  padding: 0 20px;
+  width: 250px;
+}
+
+.performance-graph-key.key-0 {
+  background-color: #511906;
+}
+.performance-graph-key.key-1 {
+  background-color: #946250;
+}
+.performance-graph-key.key-2 {
+  background-color: #4D9371;
+}
+.performance-graph-key.key-3 {
+  background-color: #06436B;
+}
+.performance-graph-key.key-4 {
+  background-color: #F2A74C;
+}
+.performance-graph-key.key-5 {
+  background-color: #3D85B3;
+}
+.performance-graph-key.key-6 {
+  background-color: #3B7559;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.footer, .explanation {
+  margin-top: 10px;
+}
