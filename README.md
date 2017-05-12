@@ -1,4 +1,4 @@
-performance-timing-google-chrome-extension
+Web Performance Timing API Google Chrome Extension
 ==========================================
 
 Web Performance Timing API Google Chrome Extension
